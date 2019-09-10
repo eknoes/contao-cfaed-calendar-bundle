@@ -10,15 +10,15 @@
 
 namespace Eknoes\ContaoInfiniteNewsBundle\Tests;
 
-use Eknoes\ContaoInfiniteNews\ContaoInfiniteNewsBundle;
+use Eknoes\ContaoCfaedCalendarMod\ContaoCfaedCalendarModBundle;
 use PHPUnit\Framework\TestCase;
 
 class ContaoInfiniteNewsBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
-        $bundle = new ContaoInfiniteNewsBundle();
+        $bundle = new ContaoCfaedCalendarModBundle();
 
-        $this->assertInstanceOf('Eknoes\ContaoInfiniteNews\ContaoInfiniteNewsBundle', $bundle);
+        $this->assertInstanceOf('Eknoes\ContaoCfaedCalendarMod\ContaoCfaedCalendarModBundle', $bundle);
     }
 }

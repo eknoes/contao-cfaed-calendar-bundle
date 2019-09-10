@@ -30,16 +30,16 @@
         "symfony/phpunit-bridge": "^3.2"
     },
     "extra": {
-        "contao-manager-plugin": "Eknoes\\ContaoInfiniteNews\\ContaoManager\\Plugin"
+        "contao-manager-plugin": "Eknoes\\ContaoCfaedCalendarMod\\ContaoManager\\Plugin"
     },
     "autoload": {
         "psr-4": {
-            "Eknoes\\ContaoInfiniteNews\\": "src/"
+            "Eknoes\\ContaoCfaedCalendarMod\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Eknoes\\ContaoInfiniteNews\\Tests\\": "tests/"
+            "Eknoes\\ContaoCfaedCalendarMod\\Tests\\": "tests/"
         }
     }
 }
