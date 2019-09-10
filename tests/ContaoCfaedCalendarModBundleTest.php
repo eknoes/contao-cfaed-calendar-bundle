@@ -8,12 +8,12 @@
  * @license LGPL-3.0-or-later
  */
 
-namespace Eknoes\ContaoInfiniteNewsBundle\Tests;
+namespace Eknoes\ContaoCfaedCalendarMod\Tests;
 
 use Eknoes\ContaoCfaedCalendarMod\ContaoCfaedCalendarModBundle;
 use PHPUnit\Framework\TestCase;
 
-class ContaoInfiniteNewsBundleTest extends TestCase
+class ContaoCfaedCalendarModBundleTest extends TestCase
 {
     public function testCanBeInstantiated()
     {
